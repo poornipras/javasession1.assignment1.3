@@ -1,0 +1,18 @@
+public class reversenum 
+{
+  public static void main(String[] args)
+  {
+	int sum;
+	System.out.println("Enter the 1st number:");
+	Scanner s=new Scanner(System.in);
+	int a=s.nextInt();
+	System.out.println("Enter the second number:");
+	int b=s.nextInt();
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	System.out.println("Now the 1st number is:" +a);
+	System.out.println("Now the second number is:" +b);
+	
+   }
+}
